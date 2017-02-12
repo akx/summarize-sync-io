@@ -29,3 +29,9 @@ You can also use `--all` to exclude all of those filters from being used.
 
 Add `--match=my-module` to filter the result to stacks that have at least one entry
 from a module whose path contains `my-module`.
+
+### Unsimplified paths
+
+By default, module paths in the output only contain the bit after the last `node_modules`.
+
+Pass `--simplify-paths=false` to disable this.
